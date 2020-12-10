@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `SCAD CoMotion 2021`,
+    description: `CoMotion is a student-led motion graphics conference at the Savannah College of Art and Design. `,
+    author: `@scadmomelove`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

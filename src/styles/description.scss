@@ -1,0 +1,26 @@
+.descriptionMain {
+    background-color: #2A1D38;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+}
+
+.descriptionContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: #FFF4E3;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    p:first-child {
+        margin-block-end: 0em;
+    }
+    span {
+        font-weight: 500;
+        font-style: italic;
+    }
+}

@@ -1,0 +1,21 @@
+// Import
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,500;1,300;1,500&display=swap');
+
+// font-family: 'Inter', sans-serif; regular=400, bold=700
+// font-family: 'Philosopher', sans-serif; regular=400, bold=700
+// font-family: 'Poppins', sans-serif; light=300, medium=500
+
+
+// General Shit
+
+html, body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    max-width:100%;
+}
+
+// Type

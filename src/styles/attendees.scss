@@ -1,12 +1,12 @@
 .container {
     width: 85vw;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .attendeeMain {
     background-color: #2A1D38;
-    height: 1200px;
+    height: auto;
     background-image: url('../assets/svg/scheduleBackground.svg');
     background-size: cover;
 }
@@ -20,6 +20,14 @@
 
     img{
         max-width: 100%;
+    }
+
+    @media only screen and (max-width:1000px){
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 0px;
     }
 }
 

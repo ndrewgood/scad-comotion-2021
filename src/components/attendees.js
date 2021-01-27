@@ -57,7 +57,7 @@ import wonderlust from "../assets/logos/wonderlust.png"
 const Attendees = () => {
   return (
     <div className="attendeeMain" style={{ marginTop: "0" }}>
-      <div className="container">
+      <div className="attendeesContainer">
         <h1>Attendees</h1>
         <div className="logo-grid">
           <a target="_blank" href="https://www.alignedmedia.com/">

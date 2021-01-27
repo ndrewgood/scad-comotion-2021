@@ -1,7 +1,11 @@
 .attendeesContainer {
     width: 85vw;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
+    h1{
+        margin-top: 0;
+        text-align: center;
+    }
 }
 
 .attendeeMain {
@@ -31,11 +35,3 @@
     }
 }
 
-h1{
-    margin-top: 0;
-    font-family: 'Philosopher', sans-serif;
-    font-weight: 700;
-    font-size: 60px;
-    text-align: center;
-    color: #FFF4E3;
-}

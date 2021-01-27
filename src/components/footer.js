@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footerContainer">
-        <h1>Contact</h1>
-        <h3>
+        <h1 className="footerHeader">Contact</h1>
+        <h3 className="footerDescription">
           For any questions about the event, email MOME Love Co-Presidents
           Anna Vallario & Krysta Coates at <span><a rel="noreferrer" href="mailto:momelove@clubs.scad.edu">momelove@clubs.scad.edu.</a> </span> 
         </h3>

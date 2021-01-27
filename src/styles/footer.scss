@@ -1,0 +1,100 @@
+.footer {
+  background-color: #bacfef;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+span {
+  a {
+    color: black;
+  }
+}
+
+h3 {
+  font-weight: 500;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+  padding-bottom: 50px;
+
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+
+.footerContainer {
+  width: 85vw;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 800px) {
+    width: auto;
+  }
+}
+
+.instalogo {
+  margin: auto;
+  // margin-right: 25px;
+  // padding: 40px;
+}
+
+.momeloveLogo {
+  width: 50px;
+  margin: auto;
+  // margin-left: 25px;
+}
+
+.footer-icons {
+  display: inline-flex;
+  margin: auto;
+  align-items: center;
+
+  img {
+    width: 50%;
+  }
+}
+
+
+// animation test
+// a {
+//   font-weight: 400;
+//   color: #000000;
+//   padding-bottom: 5px;
+//   background: url("../assets/svg/wave.svg");
+//   background-repeat: repeat;
+//   background-position-x: 0%;
+//   background-position-y: 0%;
+//   background-size: auto auto;
+//   background-repeat: repeat-x;
+//   background-size: 15px 5px; 
+//   background-position: 2px 19px;
+//   animation: move 15s linear infinite;
+//   -webkit-animation: move 15s linear infinite;
+//   animation-play-state: paused;
+//   text-decoration: none;
+//   background-color: transparent;
+//   -webkit-text-decoration-skip: objects;
+// }
+
+// a:hover {
+//   animation-play-state: running;
+// }
+
+// @keyframes move {
+//   from {
+//       background-position: 2px 19px;
+//     }
+//     to {
+//       background-position: 500px 19px;
+//     }
+//   }
+
+// @-webkit-keyframes move {
+//  from {
+//      background-position: 2px 19px;
+//    }
+//    to {
+//      background-position: 500px 19px;
+//    }
+//  }

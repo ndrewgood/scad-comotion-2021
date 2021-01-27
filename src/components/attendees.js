@@ -60,153 +60,153 @@ const Attendees = () => {
       <div className="attendeesContainer">
         <h1>Attendees</h1>
         <div className="logo-grid">
-          <a target="_blank" href="https://www.alignedmedia.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.alignedmedia.com/">
             <img src={aligned} alt="logo" />
           </a>
-          <a target="_blank" href="https://antidotestudio.tv/">
+          <a rel="noreferrer" target="_blank" href="https://antidotestudio.tv/">
             <img src={antidote} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.awesomeinc.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.awesomeinc.com/">
             <img src={awesome} alt="logo" />
           </a>
-          <a target="_blank" href="http://blackmath.com/">
+          <a rel="noreferrer" target="_blank" href="http://blackmath.com/">
             <img src={blackmath} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.blockandtackle.tv/">
+          <a rel="noreferrer" target="_blank" href="https://www.blockandtackle.tv/">
             <img src={blocktackle} alt="logo" />
           </a>
-          <a target="_blank" href="https://brandnewschool.com/">
+          <a rel="noreferrer" target="_blank" href="https://brandnewschool.com/">
             <img src={bns} alt="logo" />
           </a>
-          <a target="_blank" href="https://buck.co/">
+          <a rel="noreferrer" target="_blank" href="https://buck.co/">
             <img src={buck} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.coatofarmspost.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.coatofarmspost.com/">
             <img src={coatofarms} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.cycymymy.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.cycymymy.com/">
             <img src={cycymymy} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.dashstudio.net/">
+          <a rel="noreferrer" target="_blank" href="https://www.dashstudio.net/">
             <img src={dash} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.dukeduck.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.dukeduck.com/">
             <img src={dukeduck} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.eido.net/">
+          <a rel="noreferrer" target="_blank" href="https://www.eido.net/">
             <img src={eido} alt="logo" />
           </a>
-          <a target="_blank" href="https://about.fb.com/realitylabs/">
+          <a rel="noreferrer" target="_blank" href="https://about.fb.com/realitylabs/">
             <img src={facebook} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.fern.team/">
+          <a rel="noreferrer" target="_blank" href="https://www.fern.team/">
             <img src={fern} alt="logo" />
           </a>
-          <a target="_blank" href="https://fivestonestudios.com/">
+          <a rel="noreferrer" target="_blank" href="https://fivestonestudios.com/">
             <img src={fivestone} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.fortheculture.club/">
+          <a rel="noreferrer" target="_blank" href="https://www.fortheculture.club/">
             <img src={ftcc} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.framestore.com/?language=en">
+          <a rel="noreferrer" target="_blank" href="https://www.framestore.com/?language=en">
             <img src={framestore} alt="logo" />
           </a>
-          <a target="_blank" href="https://frostmotion.com/">
+          <a rel="noreferrer" target="_blank" href="https://frostmotion.com/">
             <img src={frost} alt="logo" />
           </a>
-          <a target="_blank" href="https://gareso.com/">
+          <a rel="noreferrer" target="_blank" href="https://gareso.com/">
             <img src={gareso} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.giantant.ca/">
+          <a rel="noreferrer" target="_blank" href="https://www.giantant.ca/">
             <img src={giantant} alt="logo" />
           </a>
-          <a target="_blank" href="https://goldenwolf.tv/">
+          <a rel="noreferrer" target="_blank" href="https://goldenwolf.tv/">
             <img src={goldenwolf} alt="logo" />
           </a>
-          <a target="_blank" href="https://gretelny.com/work/">
+          <a rel="noreferrer" target="_blank" href="https://gretelny.com/work/">
             <img src={gretel} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.gunner.work/">
+          <a rel="noreferrer" target="_blank" href="https://www.gunner.work/">
             <img src={gunner} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.hueandcry.tv/">
+          <a rel="noreferrer" target="_blank" href="https://www.hueandcry.tv/">
             <img src={huecry} alt="logo" />
           </a>
-          <a target="_blank" href="https://imaginaryforces.com/">
+          <a rel="noreferrer" target="_blank" href="https://imaginaryforces.com/">
             <img src={imaginaryforces} alt="logo" />
           </a>
-          <a target="_blank" href="https://iv.studio/">
+          <a rel="noreferrer" target="_blank" href="https://iv.studio/">
             <img src={iv} alt="logo" />
           </a>
-          <a target="_blank" href="https://laundrymat.tv/">
+          <a rel="noreferrer" target="_blank" href="https://laundrymat.tv/">
             <img src={laundry} alt="logo" />
           </a>
-          <a target="_blank" href="https://leoburnett.com/">
+          <a rel="noreferrer" target="_blank" href="https://leoburnett.com/">
             <img src={leoburnett} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.lvthn.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.lvthn.com/">
             <img src={leviathan} alt="logo" />
           </a>
-          <a target="_blank" href="http://linetest.tv/">
+          <a rel="noreferrer" target="_blank" href="http://linetest.tv/">
             <img src={linetest} alt="logo" />
           </a>
-          <a target="_blank" href="https://logan.tv/">
+          <a rel="noreferrer" target="_blank" href="https://logan.tv/">
             <img src={logan} alt="logo" />
           </a>
-          <a target="_blank" href="https://losyork.tv/">
+          <a rel="noreferrer" target="_blank" href="https://losyork.tv/">
             <img src={losyork} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.loyalkaspar.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.loyalkaspar.com/">
             <img src={lk} alt="logo" />
           </a>
-          <a target="_blank" href="https://mvsm.com/">
+          <a rel="noreferrer" target="_blank" href="https://mvsm.com/">
             <img src={mvsm} alt="logo" />
           </a>
-          <a target="_blank" href="https://meister.tv/">
+          <a rel="noreferrer" target="_blank" href="https://meister.tv/">
             <img src={meister} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.meptik.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.meptik.com/">
             <img src={meptik} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.themill.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.themill.com/">
             <img src={themill} alt="logo" />
           </a>
-          <a target="_blank" href="http://www.nerdo.tv/">
+          <a rel="noreferrer" target="_blank" href="http://www.nerdo.tv/">
             <img src={nerdo} alt="logo" />
           </a>
           {/* might not be included */}
-          {/* <a target="_blank" href=""><img src={sb} alt="logo" /></a> */}
-          <a target="_blank" href="https://thenewblank.com/">
+          {/* <a rel="noreferrer" target="_blank" href=""><img src={sb} alt="logo" /></a> */}
+          <a rel="noreferrer" target="_blank" href="https://thenewblank.com/">
             <img src={tnb} alt="logo" />
           </a>
-          <a target="_blank" href="https://notreal.tv/work">
+          <a rel="noreferrer" target="_blank" href="https://notreal.tv/work">
             <img src={notreal} alt="logo" />
           </a>
-          <a target="_blank" href="https://oddfellows.tv/">
+          <a rel="noreferrer" target="_blank" href="https://oddfellows.tv/">
             <img src={oddfellows} alt="logo" />
           </a>
-          <a target="_blank" href="http://peprally.co/">
+          <a rel="noreferrer" target="_blank" href="http://peprally.co/">
             <img src={peprally} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.psyop.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.psyop.com/">
             <img src={psypop} alt="logo" />
           </a>
-          <a target="_blank" href="https://sarofsky.com/">
+          <a rel="noreferrer" target="_blank" href="https://sarofsky.com/">
             <img src={sarofsky} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.helloscholar.com/">
+          <a rel="noreferrer" target="_blank" href="https://www.helloscholar.com/">
             <img src={scholar} alt="logo" />
           </a>
-          <a target="_blank" href="http://statedesign.tv/">
+          <a rel="noreferrer" target="_blank" href="http://statedesign.tv/">
             <img src={statedesign} alt="logo" />
           </a>
-          <a target="_blank" href="https://trollback.com/">
+          <a rel="noreferrer" target="_blank" href="https://trollback.com/">
             <img src={trollback} alt="logo" />
           </a>
-          <a target="_blank" href="https://www.wonderlustmedia.ca/">
+          <a rel="noreferrer" target="_blank" href="https://www.wonderlustmedia.ca/">
             <img src={wonderlust} alt="logo" />
           </a>
-          <a target="_blank" href="http://www.worldfamousinc.com/">
+          <a rel="noreferrer" target="_blank" href="http://www.worldfamousinc.com/">
             <img src={wf} alt="logo" />
           </a>
         </div>

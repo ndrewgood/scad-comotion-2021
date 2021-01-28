@@ -19,7 +19,7 @@ const IndexPage = () => (
     <Description />
     <Schedule />
     <Attendees />
-    <Team />
+    {/* <Team /> */}
     <Footer />
   </Layout>
 )

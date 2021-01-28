@@ -45,7 +45,7 @@ import oddfellows from "../assets/logos/odd-fellows.png"
 import peprally from "../assets/logos/pep-rally.png"
 import psypop from "../assets/logos/psypop.png"
 import sarofsky from "../assets/logos/sarofsky.png"
-// import sb from "../assets/logos/sb.png"
+import sb from "../assets/logos/sb.png"
 import scholar from "../assets/logos/scholar.png"
 import statedesign from "../assets/logos/state.png"
 import themill from "../assets/logos/the-mill.png"
@@ -54,161 +54,72 @@ import trollback from "../assets/logos/trollback.png"
 import wf from "../assets/logos/wf.png"
 import wonderlust from "../assets/logos/wonderlust.png"
 
+const Company = (props) => {
+  return(
+  <a rel="noreferrer" target="_blank" href={props.link}>
+      <img src={props.logo} alt={props.name} />
+  </a>
+  )
+}
+
 const Attendees = () => {
   return (
     <div className="attendeeMain" style={{ marginTop: "0" }}>
       <div className="attendeesContainer">
         <h1>Attendees</h1>
         <div className="logo-grid">
-          <a rel="noreferrer" target="_blank" href="https://www.alignedmedia.com/">
-            <img src={aligned} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://antidotestudio.tv/">
-            <img src={antidote} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.awesomeinc.com/">
-            <img src={awesome} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="http://blackmath.com/">
-            <img src={blackmath} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.blockandtackle.tv/">
-            <img src={blocktackle} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://brandnewschool.com/">
-            <img src={bns} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://buck.co/">
-            <img src={buck} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.coatofarmspost.com/">
-            <img src={coatofarms} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.cycymymy.com/">
-            <img src={cycymymy} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.dashstudio.net/">
-            <img src={dash} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.dukeduck.com/">
-            <img src={dukeduck} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.eido.net/">
-            <img src={eido} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://about.fb.com/realitylabs/">
-            <img src={facebook} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.fern.team/">
-            <img src={fern} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://fivestonestudios.com/">
-            <img src={fivestone} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.fortheculture.club/">
-            <img src={ftcc} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.framestore.com/?language=en">
-            <img src={framestore} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://frostmotion.com/">
-            <img src={frost} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://gareso.com/">
-            <img src={gareso} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.giantant.ca/">
-            <img src={giantant} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://goldenwolf.tv/">
-            <img src={goldenwolf} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://gretelny.com/work/">
-            <img src={gretel} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.gunner.work/">
-            <img src={gunner} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.hueandcry.tv/">
-            <img src={huecry} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://imaginaryforces.com/">
-            <img src={imaginaryforces} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://iv.studio/">
-            <img src={iv} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://laundrymat.tv/">
-            <img src={laundry} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://leoburnett.com/">
-            <img src={leoburnett} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.lvthn.com/">
-            <img src={leviathan} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="http://linetest.tv/">
-            <img src={linetest} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://logan.tv/">
-            <img src={logan} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://losyork.tv/">
-            <img src={losyork} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.loyalkaspar.com/">
-            <img src={lk} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://mvsm.com/">
-            <img src={mvsm} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://meister.tv/">
-            <img src={meister} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.meptik.com/">
-            <img src={meptik} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.themill.com/">
-            <img src={themill} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="http://www.nerdo.tv/">
-            <img src={nerdo} alt="logo" />
-          </a>
-          {/* might not be included */}
-          {/* <a rel="noreferrer" target="_blank" href=""><img src={sb} alt="logo" /></a> */}
-          <a rel="noreferrer" target="_blank" href="https://thenewblank.com/">
-            <img src={tnb} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://notreal.tv/work">
-            <img src={notreal} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://oddfellows.tv/">
-            <img src={oddfellows} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="http://peprally.co/">
-            <img src={peprally} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.psyop.com/">
-            <img src={psypop} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://sarofsky.com/">
-            <img src={sarofsky} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.helloscholar.com/">
-            <img src={scholar} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="http://statedesign.tv/">
-            <img src={statedesign} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://trollback.com/">
-            <img src={trollback} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="https://www.wonderlustmedia.ca/">
-            <img src={wonderlust} alt="logo" />
-          </a>
-          <a rel="noreferrer" target="_blank" href="http://www.worldfamousinc.com/">
-            <img src={wf} alt="logo" />
-          </a>
+          <Company name="Aligned Media" logo={aligned} link="https://www.alignedmedia.com/" />
+          <Company name="Antidote Studio" logo={antidote} link="https://antidotestudio.tv/" />
+          <Company name="Awesome Inc" logo={awesome} link="https://www.awesomeinc.com/" />
+          <Company name="Black Math" logo={blackmath} link="http://blackmath.com/" />
+          <Company name="BLOCK & TACKLE" logo={blocktackle} link="https://www.blockandtackle.tv/" />
+          <Company name="Brand New School" logo={bns} link="https://brandnewschool.com/" />
+          <Company name="BUCK" logo={buck} link="https://buck.co/" />
+          <Company name="Coat of Arms" logo={coatofarms} link="https://www.coatofarmspost.com/" />
+          <Company name="Cycymymy" logo={cycymymy} link="https://www.cycymymy.com/" />
+          <Company name="DASH" logo={dash} link="https://www.dashstudio.net/" />
+          <Company name="Duke & Duck" logo={dukeduck} link="https://www.dukeduck.com/" />
+          <Company name="Eido" logo={eido} link="https://www.eido.net/" />
+          <Company name="Facebook FRL" logo={facebook} link="https://about.fb.com/realitylabs/" />
+          <Company name="Fern" logo={fern} link="https://www.fern.team/" />
+          <Company name="Fivestone Studios" logo={fivestone} link="https://fivestonestudios.com/" />
+          <Company name="For the Culture Club" logo={ftcc} link="https://www.fortheculture.club/" />
+          <Company name="Framestore" logo={framestore} link="https://www.framestore.com/?language=en" />
+          <Company name="Frost" logo={frost} link="https://frostmotion.com/" />
+          <Company name="Gareso" logo={gareso} link="https://gareso.com/" />
+          <Company name="Giant Ant" logo={giantant} link="https://www.giantant.ca/" />
+          <Company name="Golden Wolf" logo={goldenwolf} link="https://goldenwolf.tv/" />
+          <Company name="Gretel" logo={gretel} link="https://gretelny.com/work/" />
+          <Company name="Gunner" logo={gunner} link="https://www.gunner.work/" />
+          <Company name="Hobbes" logo={aligned} link="https://hobbes.work/" />
+          <Company name="Hue & Cry" logo={huecry} link="https://www.hueandcry.tv/" />
+          <Company name="Imaginary Forces" logo={imaginaryforces} link="https://imaginaryforces.com/" />
+          <Company name="IV Studio" logo={iv} link="https://iv.studio/" />
+          <Company name="Laundry" logo={laundry} link="https://laundrymat.tv/" />
+          <Company name="Leo Burnett Group" logo={leoburnett} link="https://leoburnett.com/" />
+          <Company name="Leviathan Design" logo={leviathan} link="https://www.lvthn.com/" />
+          <Company name="Linetest Collective Inc." logo={linetest} link="http://linetest.tv/" />
+          <Company name="Logan" logo={logan} link="https://logan.tv/" />
+          <Company name="Los York" logo={losyork} link="https://losyork.tv/" />
+          <Company name="Loyalkaspar" logo={lk} link="https://www.loyalkaspar.com/" />
+          <Company name="ManvsMachine" logo={mvsm} link="https://mvsm.com/" />
+          <Company name="Meister" logo={meister} link="https://meister.tv/" />
+          <Company name="MEPTIK" logo={meptik} link="https://www.meptik.com/" />
+          <Company name="The Mill" logo={themill} link="https://www.themill.com/" />
+          <Company name="NERDO" logo={nerdo} link="http://www.nerdo.tv/" />
+          <Company name="The New Blank" logo={tnb} link="https://thenewblank.com/" />
+          <Company name="Nick Greenawalt" logo={aligned} link="https://www.motionbynick.com/" />
+          <Company name="Not Real" logo={notreal} link="https://notreal.tv/work" />
+          <Company name="Oddfellows" logo={oddfellows} link="https://oddfellows.tv/" />
+          <Company name="PepRally" logo={peprally} link="http://peprally.co/" />
+          <Company name="Psyop" logo={psypop} link="https://www.psyop.com/" />
+          <Company name="Sarah Beth Morgan" logo={sb} link="https://sarahbethmorgan.com/" />
+          <Company name="Sarofsky" logo={sarofsky} link="https://sarofsky.com/" />
+          <Company name="Scholar" logo={scholar} link="https://www.helloscholar.com/" />
+          <Company name="STATE" logo={statedesign} link="http://statedesign.tv/" />
+          <Company name="Trollback+Company" logo={trollback} link="https://trollback.com/" />
+          <Company name="Wonderlust" logo={wonderlust} link="https://www.wonderlustmedia.ca/" />
+          <Company name="World Famous" logo={wf} link="http://www.worldfamousinc.com/" />
         </div>
       </div>
     </div>

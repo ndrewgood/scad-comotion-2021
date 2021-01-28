@@ -10,6 +10,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
+    padding: 0 20px;
     width: 500px;
     color: #FFF4E3;
     text-align: center;
@@ -25,5 +26,8 @@
     span {
         font-weight: 500;
         font-style: italic;
+    }
+    @media only screen and (max-width: 800px) {
+        width: 460px;
     }
 }

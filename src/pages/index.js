@@ -14,7 +14,7 @@ import "../styles/main.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="CoMotion 2021" />
+    <SEO title="SCAD CoMotion 2021" />
     <Hero />
     <Description />
     <Schedule />

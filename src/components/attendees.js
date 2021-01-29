@@ -38,7 +38,7 @@ import logan from "../assets/logos/logan.png"
 import losyork from "../assets/logos/los-york.png"
 import meptik from "../assets/logos/meptik.png"
 import meister from "../assets/logos/meister.png"
-import mvsm from "../assets/logos/awesome.png"
+import mvsm from "../assets/logos/mvsm.png"
 import nerdo from "../assets/logos/nerdo.png"
 import notreal from "../assets/logos/not-real.png"
 import oddfellows from "../assets/logos/odd-fellows.png"
@@ -53,11 +53,14 @@ import tnb from "../assets/logos/tnb.png"
 import trollback from "../assets/logos/trollback.png"
 import wf from "../assets/logos/wf.png"
 import wonderlust from "../assets/logos/wonderlust.png"
+import nick from "../assets/logos/nick.png"
+import hobbes from "../assets/logos/hobbes.png"
 
 const Company = (props) => {
   return(
   <a rel="noreferrer" target="_blank" href={props.link}>
       <img src={props.logo} alt={props.name} />
+      <p>{props.name}</p>
   </a>
   )
 }
@@ -91,7 +94,7 @@ const Attendees = () => {
           <Company name="Golden Wolf" logo={goldenwolf} link="https://goldenwolf.tv/" />
           <Company name="Gretel" logo={gretel} link="https://gretelny.com/work/" />
           <Company name="Gunner" logo={gunner} link="https://www.gunner.work/" />
-          <Company name="Hobbes" logo={aligned} link="https://hobbes.work/" />
+          <Company name="Hobbes" logo={hobbes} link="https://hobbes.work/" />
           <Company name="Hue & Cry" logo={huecry} link="https://www.hueandcry.tv/" />
           <Company name="Imaginary Forces" logo={imaginaryforces} link="https://imaginaryforces.com/" />
           <Company name="IV Studio" logo={iv} link="https://iv.studio/" />
@@ -108,7 +111,7 @@ const Attendees = () => {
           <Company name="The Mill" logo={themill} link="https://www.themill.com/" />
           <Company name="NERDO" logo={nerdo} link="http://www.nerdo.tv/" />
           <Company name="The New Blank" logo={tnb} link="https://thenewblank.com/" />
-          <Company name="Nick Greenawalt" logo={aligned} link="https://www.motionbynick.com/" />
+          <Company name="Nick Greenawalt" logo={nick} link="https://www.motionbynick.com/" />
           <Company name="Not Real" logo={notreal} link="https://notreal.tv/work" />
           <Company name="Oddfellows" logo={oddfellows} link="https://oddfellows.tv/" />
           <Company name="PepRally" logo={peprally} link="http://peprally.co/" />
@@ -122,6 +125,7 @@ const Attendees = () => {
           <Company name="World Famous" logo={wf} link="http://www.worldfamousinc.com/" />
         </div>
       </div>
+      <h3>More Information Coming Soon...</h3>
     </div>
   )
 }

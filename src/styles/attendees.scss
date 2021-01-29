@@ -13,6 +13,11 @@
     height: auto;
     background-image: url('../assets/svg/attendeesBackground4.svg');
     background-size: cover;
+    padding-bottom: 70px;
+    h3 {
+        margin-top: 50px;
+        text-align: center;
+    }
 }
 
 .logo-grid {
@@ -26,8 +31,25 @@
         max-width: 100%;
         opacity: .6;
         transition: .4s;
-    }
 
+    }
+    a {
+        text-decoration: none;
+    }
+    p{
+        color: #FFF4E3;
+        font-family: 'Poppins', sans-serif;
+        font-family: 300;
+        text-align: center;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: .3s;
+        @media only screen and (max-width:600px){
+            display: none;
+        }
+
+
+    }
     @media only screen and (max-width:1000px){
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -38,6 +60,10 @@
     a:hover {
         img {
             opacity: 1;
+        }
+        p {
+            opacity: 1;
+            transform: translateY(0);
         }
     }
 }

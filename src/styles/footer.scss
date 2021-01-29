@@ -2,24 +2,39 @@
   background-color: #bacfef;
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 span {
   a {
-    color: black;
+    color: #291D38;
   }
+}
+
+.footerHeader {
+  color: #291D38;
 }
 
 .footerDescription {
   font-weight: 500;
   text-align: center;
-  max-width: 75%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  color: #291D38;
+  width: 600px;
   margin: auto;
+  margin-top: 20px;
   padding-bottom: 50px;
 
   @media only screen and (max-width: 800px) {
-    width: 100%;
+    font-size: 20px;
+    width: 500px;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 18px;
+    width: 450px;
   }
 }
 
@@ -55,46 +70,10 @@ span {
   }
 }
 
-
-// animation test
-// a {
-//   font-weight: 400;
-//   color: #000000;
-//   padding-bottom: 5px;
-//   background: url("../assets/svg/wave.svg");
-//   background-repeat: repeat;
-//   background-position-x: 0%;
-//   background-position-y: 0%;
-//   background-size: auto auto;
-//   background-repeat: repeat-x;
-//   background-size: 15px 5px; 
-//   background-position: 2px 19px;
-//   animation: move 15s linear infinite;
-//   -webkit-animation: move 15s linear infinite;
-//   animation-play-state: paused;
-//   text-decoration: none;
-//   background-color: transparent;
-//   -webkit-text-decoration-skip: objects;
-// }
-
-// a:hover {
-//   animation-play-state: running;
-// }
-
-// @keyframes move {
-//   from {
-//       background-position: 2px 19px;
-//     }
-//     to {
-//       background-position: 500px 19px;
-//     }
-//   }
-
-// @-webkit-keyframes move {
-//  from {
-//      background-position: 2px 19px;
-//    }
-//    to {
-//      background-position: 500px 19px;
-//    }
-//  }
+.footerTransition {
+  width: 100%;
+  height: 350px;
+  background-color: #2A1D38;
+  background-image: url('../assets/svg/footerTransition.svg');
+  background-size: cover;
+}

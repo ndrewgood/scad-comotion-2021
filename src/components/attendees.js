@@ -94,7 +94,7 @@ const Attendees = () => {
           <Company name="Golden Wolf" logo={goldenwolf} link="https://goldenwolf.tv/" />
           <Company name="Gretel" logo={gretel} link="https://gretelny.com/work/" />
           <Company name="Gunner" logo={gunner} link="https://www.gunner.work/" />
-          <Company name="Hobbes" logo={hobbes} link="https://hobbes.work/" />
+          {/* <Company name="Hobbes" logo={hobbes} link="https://hobbes.work/" /> */}
           <Company name="Hue & Cry" logo={huecry} link="https://www.hueandcry.tv/" />
           <Company name="Imaginary Forces" logo={imaginaryforces} link="https://imaginaryforces.com/" />
           <Company name="IV Studio" logo={iv} link="https://iv.studio/" />

@@ -35,6 +35,9 @@
     width: 90vw;
     max-width: 1300px;
     min-width: 850px;
+    @media only screen and (max-width: 600px) {
+        min-width: 730px;
+    }
 }
 
 .heroBackground {

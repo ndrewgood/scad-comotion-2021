@@ -25,16 +25,16 @@ const Schedule = () => {
                         <div className="eventDates">
                             <p>11:00am - 11:15am</p>
                             <p>11:15am - 11:30am</p>
-                            <p>11:30am - 12:30pm</p>
-                            <p>12:30pm - 1:45pm</p>
-                            <p>1:45pm - 2:45pm</p>
-                            <p>2:45pm - 4:00pm</p>
+                            <p>11:30am - 12:45pm</p>
+                            <p>12:45pm - 1:45pm</p>
+                            <p>2:00pm - 3:00pm</p>
+                            <p>3:15pm - 4:30pm</p>
                         </div>
                         <div className="eventNames">
                             <p>Opening Statement</p>
                             <p>Title Sequence</p>
-                            <p>Lunch Break</p>
                             <p>The Influence of Online Communities Panel</p>
+                            <p>Lunch Break</p>
                             <p>Workshop</p>
                             <p>Alumni Panel</p>
                         </div>
@@ -49,19 +49,19 @@ const Schedule = () => {
                             <p>Title Sequence</p>
                         </div>
                         <div className="eventMobile">
-                            <p>11:30am - 12:30pm</p>
-                            <p>Lunch Break</p>
-                        </div>
-                        <div className="eventMobile">
-                            <p>12:30pm - 1:45pm</p>
+                            <p>11:30am - 12:45pm</p>
                             <p>The Influence of Online Communities Panel</p>
                         </div>
                         <div className="eventMobile">
-                            <p>1:45pm - 2:45pm</p>
+                            <p>12:45pm - 1:45pm</p>
+                            <p>Lunch Break</p>
+                        </div>
+                        <div className="eventMobile">
+                            <p>2:00pm - 3:00pm</p>
                             <p>Workshop</p>
                         </div>
                         <div className="eventMobile">
-                            <p>2:45pm - 4:00pm</p>
+                            <p>3:15pm - 4:30pm</p>
                             <p>Alumni Panel</p>
                         </div>
                     </div>
@@ -76,13 +76,15 @@ const Schedule = () => {
                     <div className="eventContent">
                         <div className="eventDates">
                             <p>11:00am - 1:00pm</p>
-                            <p>1:00pm - 2:00pm</p>
-                            <p>2:00pm - 3:15pm</p>
-                            <p>3:15pm - 5:00pm</p>
+                            <p>1:00pm - 1:45pm</p>
+                            <p>1:45pm - 2:45pm</p>
+                            <p>3:00pm - 4:15pm</p>
+                            <p>4:30pm - 6:45pm</p>
                         </div>
                         <div className="eventNames">
                             <p>Portfolio Reviews</p>
                             <p>Lunch Break</p>
+                            <p>Portfolio Reviews</p>
                             <p>Design for Social Justice Panel</p>
                             <p>Student Showcase</p>
                         </div>
@@ -93,15 +95,19 @@ const Schedule = () => {
                             <p>Portfolio Reviews</p>
                         </div>
                         <div className="eventMobile">
-                            <p>1:00pm - 2:00pm</p>
+                            <p>1:00pm - 1:45pm</p>
                             <p>Lunch Break</p>
                         </div>
                         <div className="eventMobile">
-                            <p>2:00pm - 3:15pm</p>
+                            <p>1:45pm - 2:45pm</p>
+                            <p>Portfolio Reviews</p>
+                        </div>
+                        <div className="eventMobile">
+                            <p>3:00pm - 4:15pm</p>
                             <p>Design for Social Justice Panel</p>
                         </div>
                         <div className="eventMobile">
-                          <p>3:15pm - 5:00pm</p>
+                          <p>4:30pm - 6:45pm</p>
                           <p>Student Showcase</p>
                         </div>
                     </div>
@@ -113,13 +119,15 @@ const Schedule = () => {
                     <h3>Saturday, March 20th</h3>
                     <div className="eventContent">
                         <div className="eventDates">
-                            <p>11:00am - 12:15am</p>
-                            <p>12:15am - 1:15pm</p>
-                            <p>1:30pm - 3:30pm</p>
+                            <p>10:00am - 11:15am</p>
+                            <p>11:30am - 12:30pm</p>
+                            <p>12:30pm - 1:15pm</p>
+                            <p>1:15pm - 3:15pm</p>
                             <p>3:30pm - 4:30pm</p>
                         </div>
                         <div className="eventNames">
                             <p>Innovation within the Remote Experience Panel</p>
+                            <p>Portfolio Reviews</p>
                             <p>Lunch Break</p>
                             <p>Portfolio Reviews</p>
                             <p>Keynote Speaker</p>
@@ -127,15 +135,19 @@ const Schedule = () => {
                     </div>
                     <div className="eventContentMobile">
                         <div className="eventMobile">
-                            <p>11:00am - 12:15am</p>
+                            <p>10:00am - 11:15am</p>
                             <p>Innovation within the Remote Experience Panel</p>
                         </div>
                         <div className="eventMobile">
-                            <p>12:15am - 1:15pm</p>
+                            <p>11:30am - 12:30pm</p>
+                            <p>Portfolio Reviews</p>
+                        </div>
+                        <div className="eventMobile">
+                            <p>12:30am - 1:15pm</p>
                             <p>Lunch Break</p>
                         </div>
                         <div className="eventMobile">
-                            <p>1:30pm - 3:30pm</p>
+                            <p>1:15pm - 3:15pm</p>
                             <p>Portfolio Reviews</p>
                         </div>
                         <div className="eventMobile">

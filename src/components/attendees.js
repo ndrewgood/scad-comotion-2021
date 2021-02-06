@@ -53,6 +53,7 @@ import tnb from "../assets/logos/tnb.png"
 import trollback from "../assets/logos/trollback.png"
 import wf from "../assets/logos/wf.png"
 import wonderlust from "../assets/logos/wonderlust.png"
+import territory from "../assets/logos/territory.png"
 import nick from "../assets/logos/nick.png"
 import hobbes from "../assets/logos/hobbes.png"
 
@@ -120,6 +121,7 @@ const Attendees = () => {
           <Company name="Sarofsky" logo={sarofsky} link="https://sarofsky.com/" />
           <Company name="Scholar" logo={scholar} link="https://www.helloscholar.com/" />
           <Company name="STATE" logo={statedesign} link="http://statedesign.tv/" />
+          <Company name="Territory Studio" logo={territory} link="https://territorystudio.com/" />
           <Company name="Trollback+Company" logo={trollback} link="https://trollback.com/" />
           <Company name="Wonderlust" logo={wonderlust} link="https://www.wonderlustmedia.ca/" />
           <Company name="World Famous" logo={wf} link="http://www.worldfamousinc.com/" />

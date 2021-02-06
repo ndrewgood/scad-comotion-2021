@@ -2,6 +2,9 @@ import React from "react"
 
 import instagram from "../assets/png/instalogo.png"
 import momelove from "../assets/png/momeloveLogo.png"
+import facebook from "../assets/svg/facebookLogo.svg"
+import discord from "../assets/svg/discordLogo.svg"
+
 
 import "../styles/footer.scss"
 
@@ -33,6 +36,24 @@ const Footer = () => {
                 href="https://www.instagram.com/scadmomelove/"
               >
                 <img className="momeloveLogo" src={momelove} alt="momelove" />
+              </a>
+            </div>
+            <div>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.facebook.com/groups/momelove/"
+              >
+                <img className="momeloveLogo" src={facebook} alt="facebook" />
+              </a>
+            </div>
+            <div>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="http://discord.gg/3h3gbSp"
+              >
+                <img className="momeloveLogo" src={discord} alt="discord" />
               </a>
             </div>
           </div>

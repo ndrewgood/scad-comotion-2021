@@ -47,7 +47,7 @@ const Footer = () => {
                 <img className="momeloveLogo" src={facebook} alt="facebook" />
               </a>
             </div>
-            <div>
+            {/* <div>
               <a
                 rel="noreferrer"
                 target="_blank"
@@ -55,7 +55,7 @@ const Footer = () => {
               >
                 <img className="momeloveLogo" src={discord} alt="discord" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

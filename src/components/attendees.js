@@ -59,10 +59,10 @@ import hobbes from "../assets/logos/hobbes.png"
 
 const Company = (props) => {
   return(
-  <a rel="noreferrer" target="_blank" href={props.link}>
-      <img src={props.logo} alt={props.name} />
-      <p>{props.name}</p>
-  </a>
+    <a rel="noreferrer" target="_blank" href={props.link}>
+        <img src={props.logo} alt={props.name} />
+        <p>{props.name}</p>
+    </a>
   )
 }
 
@@ -127,7 +127,6 @@ const Attendees = () => {
           <Company name="World Famous" logo={wf} link="http://www.worldfamousinc.com/" />
         </div>
       </div>
-      <h3>More Information Coming Soon...</h3>
     </div>
   )
 }

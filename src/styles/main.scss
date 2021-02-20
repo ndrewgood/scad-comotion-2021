@@ -1,5 +1,5 @@
 // Import
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,500;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300;1,500&display=swap');
 
 // font-family: 'Inter', sans-serif; regular=400, bold=700
 // font-family: 'Philosopher', sans-serif; regular=400, bold=700
@@ -68,4 +68,37 @@ h3 {
 
 p {
     font-family: 'Inter', sans-serif;
+}
+
+
+// Dividers
+
+.divider1 {
+    width: 100vw;
+    background-image: url('../assets/svg/divider1.svg');
+    height: 40vw;
+    max-height: 300px;
+    background-position: center;
+    background-repeat: none;
+    margin-top: -70px;
+}
+
+.divider2 {
+    width: 100vw;
+    background-image: url('../assets/svg/divider2.svg');
+    height: 30vw;
+    max-height: 300px;
+    background-position: center;
+    background-repeat: none;
+    margin-top: 90px;
+}
+
+.divider3 {
+    width: 100vw;
+    background-image: url('../assets/svg/divider3t.svg');
+    height: 30vw;
+    max-height: 340px;
+    background-position: center;
+    background-repeat: none;
+    margin-top: 130px;
 }

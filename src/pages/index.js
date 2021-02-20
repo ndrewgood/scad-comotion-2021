@@ -7,7 +7,8 @@ import Hero from "../components/hero"
 import Description from "../components/description"
 import Schedule from "../components/schedule"
 import Attendees from "../components/attendees"
-import Team from "../components/team"
+import Speakers from "../components/speakers"
+import Faq from "../components/faq"
 import Footer from "../components/footer"
 
 import "../styles/main.scss"
@@ -19,7 +20,8 @@ const IndexPage = () => (
     <Description />
     <Schedule />
     <Attendees />
-    {/* <Team /> */}
+    <Speakers />
+    <Faq />
     <Footer />
   </Layout>
 )

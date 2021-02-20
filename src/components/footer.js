@@ -11,7 +11,7 @@ import "../styles/footer.scss"
 const Footer = () => {
   return (
     <>
-      <div className="footerTransition"></div>
+      {/* <div className="footerTransition"></div> */}
       <div className="footer">
         <div className="footerContainer">
           <h1 className="footerHeader">Contact</h1>

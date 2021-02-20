@@ -58,10 +58,14 @@
     width: 100vw;
     max-width: 100%;
     height: 11vw;
-    background: rgb(42,29,56);
-    background: linear-gradient(0deg, rgba(42,29,56,1) 5%, rgba(42,29,56,0) 100%);
-    background-size: cover;
-    background-position: bottom;
+    background-image: url('../assets/svg/heroFade.svg');
+    @media only screen and (max-width: 800px) {
+        height: 200px;
+    }
+    // background: rgb(42,29,56);
+    // background: linear-gradient(0deg, rgba(42,29,56,1) 5%, rgba(42,29,56,0) 100%);
+    // background-size: cover;
+    // background-position: bottom;
     z-index: 20;
     bottom: -2px;
 }

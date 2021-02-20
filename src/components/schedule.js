@@ -1,6 +1,7 @@
 import React from "react"
 
 import Hand from '../assets/png/scheduleHand.png'
+import Explode from '../assets/png/scheduleExplode.png'
 import Clef from '../assets/png/scheduleClef.png'
 import Train from '../assets/png/scheduleTrain2.png'
 
@@ -66,7 +67,7 @@ const Schedule = () => {
                         </div>
                     </div>
                 </div>
-                <img className="scheduleImage sHand" src={Hand}></img>
+                <img className="scheduleImage sHand" src={Explode}></img>
             </div>
             <div className="scheduleRow container secondRow">
             <img className="scheduleImage sTrain" src={Train}></img>
@@ -156,9 +157,9 @@ const Schedule = () => {
                         </div>
                     </div>
                 </div>
-                <img className="scheduleImage sClef" src={Clef}></img>
+                {/* <img className="scheduleImage sClef" src={Clef}></img> */}
             </div>
-
+            <div className="divider2"></div>
         </main>
     )
 }

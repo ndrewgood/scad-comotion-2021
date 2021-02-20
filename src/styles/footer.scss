@@ -1,8 +1,9 @@
 .footer {
-  background-color: #bacfef;
+  background-color: #FFD0B6;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
+  margin-top: -3px;
 }
 
 span {
@@ -68,12 +69,4 @@ span {
   img {
     width: 50%;
   }
-}
-
-.footerTransition {
-  width: 100%;
-  height: 350px;
-  background-color: #2A1D38;
-  background-image: url('../assets/svg/footerTransition.svg');
-  background-size: cover;
 }

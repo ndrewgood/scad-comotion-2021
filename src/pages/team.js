@@ -160,7 +160,7 @@ const momelove = [
   },
   {
     name: "Alexandera Marca",
-    role: "Officer",
+    role: "Treasurer",
     pic1: mlAlexM,
     pic2: mlAlexM2,
     link: "https://www.kelseyalexandera.com/"

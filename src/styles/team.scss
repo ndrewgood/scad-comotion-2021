@@ -85,7 +85,7 @@
 .teamPic{
     text-decoration: none;
     display: block;
-
+    position: relative;
     text-align: center;
 }
 
@@ -152,4 +152,13 @@
     @media only screen and (max-width:600px){
         height: 150px;
     }
+  }
+
+  .tPic1 {
+      position: absolute;
+      transform: translate(-50%);
+      left: 50%;
+      &:hover {
+          opacity: 0;
+      }
   }

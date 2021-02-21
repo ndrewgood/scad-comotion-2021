@@ -415,15 +415,16 @@ const IndexPage = () => (
       <div className="teamGrid container">
         {
           momelove.map(i => {
-            const style = css`
+            const style1 = css`
             background-image: url(${i.pic1});
-            &:hover {
-              background-image: url(${i.pic2});
-            }
+            `
+            const style2 = css`
+            background-image: url(${i.pic2});
             `
             return(
               <a key={i.link}className="teamPic" target="_blank" href={i.link}>
-                <div className="tPic" css={style}></div>
+                <div className="tPic tPic1" css={style1}></div>
+                <div className="tPic tPic2" css={style2}></div>
                 <p className="tName">{i.name}</p>
                 <p className="tRole">{i.role}</p>
               </a>
@@ -435,15 +436,16 @@ const IndexPage = () => (
       <div className="teamGrid container">
         {
           brandingteam.map(i => {
-            const style = css`
+            const style1 = css`
             background-image: url(${i.pic1});
-            &:hover {
-              background-image: url(${i.pic2});
-            }
+            `
+            const style2 = css`
+            background-image: url(${i.pic2});
             `
             return(
               <a key={i.link}className="teamPic" target="_blank" href={i.link}>
-                <div className="tPic" css={style}></div>
+                <div className="tPic tPic1" css={style1}></div>
+                <div className="tPic tPic2" css={style2}></div>
                 <p className="tName">{i.name}</p>
                 <p className="tRole">{i.role}</p>
               </a>

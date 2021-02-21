@@ -100,7 +100,7 @@ const Attendees = () => {
           <Company name="Imaginary Forces" logo={imaginaryforces} link="https://imaginaryforces.com/" />
           <Company name="IV Studio" logo={iv} link="https://iv.studio/" />
           <Company name="Laundry" logo={laundry} link="https://laundrymat.tv/" />
-          <Company name="Leo Burnett Group" logo={leoburnett} link="https://leoburnett.com/" />
+          {/* <Company name="Leo Burnett Group" logo={leoburnett} link="https://leoburnett.com/" /> */}
           <Company name="Leviathan Design" logo={leviathan} link="https://www.lvthn.com/" />
           <Company name="Linetest Collective Inc." logo={linetest} link="http://linetest.tv/" />
           <Company name="Logan" logo={logan} link="https://logan.tv/" />
@@ -112,12 +112,12 @@ const Attendees = () => {
           <Company name="The Mill" logo={themill} link="https://www.themill.com/" />
           <Company name="NERDO" logo={nerdo} link="http://www.nerdo.tv/" />
           <Company name="The New Blank" logo={tnb} link="https://thenewblank.com/" />
-          <Company name="Nick Greenawalt" logo={nick} link="https://www.motionbynick.com/" />
+          {/* <Company name="Nick Greenawalt" logo={nick} link="https://www.motionbynick.com/" /> */}
           <Company name="Not Real" logo={notreal} link="https://notreal.tv/work" />
           <Company name="Oddfellows" logo={oddfellows} link="https://oddfellows.tv/" />
           <Company name="PepRally" logo={peprally} link="http://peprally.co/" />
           <Company name="Psyop" logo={psypop} link="https://www.psyop.com/" />
-          <Company name="Sarah Beth Morgan" logo={sb} link="https://sarahbethmorgan.com/" />
+          {/* <Company name="Sarah Beth Morgan" logo={sb} link="https://sarahbethmorgan.com/" /> */}
           <Company name="Sarofsky" logo={sarofsky} link="https://sarofsky.com/" />
           <Company name="Scholar" logo={scholar} link="https://www.helloscholar.com/" />
           <Company name="STATE" logo={statedesign} link="http://statedesign.tv/" />

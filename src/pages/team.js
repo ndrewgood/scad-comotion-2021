@@ -159,7 +159,7 @@ const momelove = [
     link: "https://www.kaganmarks.com/"
   },
   {
-    name: "Alexandra Marca",
+    name: "Alexandera Marca",
     role: "Officer",
     pic1: mlAlexM,
     pic2: mlAlexM2,

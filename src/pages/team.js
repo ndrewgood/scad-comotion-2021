@@ -306,7 +306,7 @@ const brandingteam = [
     role: "Animator",
     pic1: btWendyH,
     pic2: btWendyH2,
-    link: "https://vimeo.com/wendyoohuang"
+    link: "http://wanchinghuang.com/"
   },
   {
     name: "DeAe Kim",

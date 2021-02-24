@@ -320,7 +320,7 @@ const brandingteam = [
     role: "Graphic Designer",
     pic1: btAlaijahH,
     pic2: btAlaijahH2,
-    link: "https://alaijahhamptondesign.com/"
+    link: "https://www.alaijahhampton.design"
   },
   {
     name: "Erica Kim",

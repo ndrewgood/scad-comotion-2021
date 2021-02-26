@@ -90,4 +90,11 @@
         font-weight: 300;
         color: #FFF4E3;
     }
+    @media only screen and (max-width: 800px) {
+        height: 60px;
+        p {
+            width: 80%;
+            max-width: 388px;
+        }
+    }
 }

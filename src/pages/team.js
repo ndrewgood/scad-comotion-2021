@@ -309,7 +309,7 @@ const brandingteam = [
     link: "http://wanchinghuang.com/"
   },
   {
-    name: "DeAe Kim",
+    name: "DaAe Kim",
     role: "Animator",
     pic1: btDaAeK,
     pic2: btDaAeK2,

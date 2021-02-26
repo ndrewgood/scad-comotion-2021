@@ -4,7 +4,7 @@ import '../styles/nav.scss'
 
 const Nav = () => {
 
-  const [navStatus, setNavStatus] = useState("container");
+  const [navStatus, setNavStatus] = useState("");
 
 
   useEffect(() => {
@@ -21,10 +21,10 @@ const Nav = () => {
           || (prevScrollpos <= 0 && currentScrollPos <= 0)
         ) {
           // console.log("show!")
-          setNavStatus("container nav-show");
+          setNavStatus("nav-show");
         } else {
           // console.log("hide!")
-          setNavStatus("container nav-hide");
+          setNavStatus("nav-hide");
         }
         prevScrollpos = currentScrollPos;
       }
@@ -32,12 +32,12 @@ const Nav = () => {
   });
 
   return (
-    <nav className={navStatus}>
-      <Link activeClassName="nav-active" className="nav-left" to="/">Home</Link>
-      <ul className="nav-right">
-        <Link activeClassName="nav-active" to="/team">Team</Link>
-      </ul>
-    </nav>
+      <nav className={navStatus}>
+        <Link activeClassName="nav-active" className="nav-left" to="/">Home</Link>
+        <ul className="nav-right">
+          <Link activeClassName="nav-active" to="/team">Team</Link>
+        </ul>
+      </nav>
   );
 };
 

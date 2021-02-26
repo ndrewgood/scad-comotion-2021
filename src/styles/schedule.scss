@@ -22,7 +22,7 @@
 }
 
 .firstRow {
-    margin-top: 50px !important;
+    margin-top: 35px !important;
 }
 
 .scheduleHeader {
@@ -185,4 +185,12 @@
     .eventContent {
         display: none;
     }
+}
+
+.scheduleHeaderNote {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #7FACF4;
+    font-style: italic;
+    font-size: 18px;
 }

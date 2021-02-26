@@ -17,6 +17,7 @@ const Schedule = () => {
                     <h1>Schedule</h1>
                     <div className="headerStar"></div>
                 </div>
+                <p className="scheduleHeaderNote">*All times are EST</p>
             </div>
             <div className="scheduleRow container firstRow">
                 <div className="scheduleContent">

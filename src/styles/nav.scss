@@ -5,6 +5,9 @@ nav {
     transform: translate(-50%);
     left: 50%;
     padding: 40px 0px;
+    top: 30px;
+    // width: 100vw; CHANGE BACK TO THIS WHEN MORE THAN 2 NAV ITEMS
+    width: 140px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     transition: .2s;
@@ -18,7 +21,7 @@ nav {
         opacity: 1;
     }
     //CHANGE TO 'SPACE-BETWEEN' WHEN MORE THAN 2 NAV ITEMS
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .nav-right {
@@ -26,7 +29,7 @@ nav {
     padding-inline-start: 0px;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    margin-left: 30px;
+    // margin-left: 30px;
 }
 
 

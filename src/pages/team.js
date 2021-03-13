@@ -401,6 +401,93 @@ const brandingteam = [
   },
 ]
 
+const volunteers = [
+  {
+    name: "Alaijah Hampton",
+    link: "https://www.alaijahhampton.design"
+  },
+  {
+    name: "Alexandra Thieneman",
+    link: "https://alexandrathieneman.wixsite.com/website1"
+  },
+  {
+    name: "Nichole Herning",
+    link: "https://nicholeherning.com/"
+  },
+  {
+    name: "Micah Norton",
+    link: "https://www.moomotiongraphics.com/"
+  },
+  {
+    name: "Grace Lawton",
+    link: "https://www.gracelawtondesign.com/"
+  },
+  {
+    name: "Bella Shih",
+    link: "https://chshih21.myportfolio.com/"
+  },
+  {
+    name: "Shivani Varandani",
+    link: "https://www.shivanivarandani.com/"
+  },
+  {
+    name: "Shawna Seo Hyun Joo",
+    link: "https://www.shawnajoo.art"
+  },
+  {
+    name: "Aidan Carney",
+    link: "https://www.aidancarneydesign.com/work"
+  },
+  {
+    name: "Ni Ma",
+    link: "https://www.nimamaglish.com/"
+  },
+  {
+    name: "Breah Johnson",
+    link: "https://www.labreahstudio.com/"
+  },
+  {
+    name: "Christian Arnsparger",
+    link: "https://www.christianarnsparger.com/"
+  },
+  {
+    name: "Tiffany Lo",
+    link: "https://tiffyuntinglo.myportfolio.com"
+  },
+  {
+    name: "Cora Keene",
+    link: "https://corakeene.com/"
+  },
+  {
+    name: "Marly Koven",
+    link: "https://www.marlykoven.com/"
+  },
+  {
+    name: "Priscilla Quek",
+    link: "https://www.behance.net/prisquek20"
+  },
+  {
+    name: "Yun Hsuan, Lin",
+    link: "https://linktr.ee/yh.mg1997"
+  },
+  {
+    name: "Nadia Harris",
+    link: "https://nadiathedesigner.com/"
+  },
+  {
+    name: "Samantha Woods",
+    link: "https://samwoodsdesign.com/"
+  },
+  {
+    name: "Alyssa Mackersie",
+    link: "https://www.behance.net/alyssamackersie"
+  },
+  {
+    name: "Robert Morrison",
+    link: "https://www.instagram.com/alwayswbuttr/?hl=en"
+  },
+]
+
 
 const IndexPage = () => (
   <Layout>
@@ -448,6 +535,18 @@ const IndexPage = () => (
                 <div className="tPic tPic2" css={style2}></div>
                 <p className="tName">{i.name}</p>
                 <p className="tRole">{i.role}</p>
+              </a>
+            )
+          })
+        }
+      </div>
+      <h2>Volunteers</h2>
+      <div className="volunteersGrid">
+      {
+          volunteers.map(i => {
+            return(
+              <a key={i.link} className="volunteer" target="_blank" href={i.link}>
+                {i.name}
               </a>
             )
           })

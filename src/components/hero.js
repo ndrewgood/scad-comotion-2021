@@ -14,7 +14,7 @@ const Hero = () => {
     useEffect(() => {
         setInterval(() => {
             setCD(countdown( new Date('March 18, 2021 11:00:00'), null, countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS ));
-            console.log(cd);
+            // console.log(cd);
         }, 1000);
 
         const anim = lottie.loadAnimation({

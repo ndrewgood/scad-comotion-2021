@@ -1,0 +1,96 @@
+.hubs-hero {
+    width: 100vw;
+    height: 500px;
+    background: linear-gradient(186.64deg, #EA6767 -3.74%, #E47892 107.61%);
+    position: relative;
+    @media only screen and (max-width:700px){
+        height: 430px;
+    }   
+}
+
+.hubs-heroFade {
+    width: 100vw;
+    height: 350px;
+    background-image: url('../assets/svg/hubsTransition.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    z-index: 15;
+}
+
+.hubs-hand {
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    transform: translate(-50%);
+    left: 50%;
+    z-index: 10;
+    @media only screen and (max-width:700px){
+        width: 350px;
+    }   
+}
+
+.hubs {
+    background-color: #A762B1;
+    padding-top: 70px;
+    h1 {
+        text-align: center;
+    }
+    padding-bottom: 250px;
+}
+
+.hubs-description {
+    margin: auto;
+    margin-top: 30px;
+    max-width: 700px;
+    text-align: center;
+    color: #FFF4E3;
+    p {
+
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    padding-bottom: 70px;
+}
+
+.hubs-buttonContainer {
+    margin: auto;
+    display: flex;
+    max-width: 700px;
+}
+
+.button {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800;
+    color: #FFF4E3;
+    text-decoration: none;
+    margin: auto;
+    padding: 14px 20px;
+    background: rgba(127, 172, 244, 0.16);
+    border: 2px solid #7FACF4;
+    box-shadow: 0px 0px 11px rgba(127, 172, 244, 0.25);
+    border-radius: 10px;
+    transition: .3s;
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0px 0px 11px rgba(127, 172, 244, 0.8);
+        background: rgba(127, 172, 244, 0.301);
+
+    }
+}
+
+.hubsFooterFade {
+    width: 100%;
+    height: 270px;
+    background-image: url('../assets/svg/hubsFooterFade.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    @media only screen and (max-width:950px){
+        height: 170px;
+    }
+    @media only screen and (max-width:600px){
+        height: 130px;
+    }
+}

@@ -36,9 +36,9 @@ const Nav = () => {
         <Link activeClassName="nav-active" className="nav-left" to="/">Home</Link>
         <ul className="nav-right">
           <Link activeClassName="nav-active" to="/team">Team</Link>
+          {/* <a activeClassName="nav-active" target="_blank" href="https://society6.com/momelove">Store</a> */}
         </ul>
       </nav>
   );
 };
-
 export default Nav;

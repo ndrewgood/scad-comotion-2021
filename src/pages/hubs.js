@@ -5,6 +5,10 @@ import SEO from "../components/seo"
 import Footer from '../components/footer'
 
 import hand from '../assets/png/hubsHandCrop.png'
+import lobby from '../assets/png/lobbyThumb.png'
+import gallery from '../assets/png/galleryThumb.png'
+
+
 
 import '../styles/hubs.scss'
 
@@ -18,11 +22,18 @@ const HubsPage = () => (
     <div className="hubs">
       <h1>Hubs</h1>
       <div className="hubs-description">
-        <p>CoMotion is a student-led motion graphics conference at the Savannah College of Art and Design.</p>
-        <p>It is being held <span>remotely</span> on March 18th - 20th, 2021.</p>
+        <p>This year at CoMotion 2021 we are proud to announce that we are utilizing the Mozilla Hubs platform! Mozilla Hubs is a virtual meeting space which you can instantly join on your browser, mobile device, or VR headset! Hubs supports voice and text chat, as well as sharing videos, images, and links. Connect with your friends in our lobby, or check out our design student showcase submission finalists in the gallery space. Have fun and enjoy this CoMotion's safe, socially distanced, experience!</p>
+        <p>Use the buttons below to join one of the Mozilla Hub Rooms.</p>
       </div>
-      <div className="hubs-buttonContainer">
-        <a target="_blank" href="#" className="button">Link to Room 1</a>
+      <div className="hubs-buttonContainer container">
+        <div className="hubs-Room">
+          <img className="hubs-RoomThumb" src={lobby} alt=""/>
+          <a target="_blank" href="https://hubs.mozilla.com/b4jat6c/comotion-2021-lobby" className="button">Link to the Lobby</a>
+        </div>
+        <div className="hubs-Room">
+          <img className="hubs-RoomThumb" src={gallery} alt=""/>
+          <a target="_blank" href="https://hubs.mozilla.com/sLkZude/comotion-2021-gallery" className="button">Link to the Gallery</a>
+        </div>
       </div>
     </div>
     <div className="hubsFooterFade"></div>

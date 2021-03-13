@@ -43,22 +43,71 @@
 .hubs-description {
     margin: auto;
     margin-top: 30px;
-    max-width: 700px;
+    max-width: 800px;
+    width: 92vw;
     text-align: center;
     color: #FFF4E3;
     p {
-
+        &:first-child{
+            padding-bottom: 30px;
+        }
         font-family: 'Poppins', sans-serif !important;
         font-weight: 300;
         font-size: 18px;
     }
     padding-bottom: 70px;
+    @media only screen and (max-width:900px){
+        p {
+            font-size: 16px;
+        }
+    }
+    @media only screen and (max-width:600px){
+        p {
+            font-size: 15px;
+        }
+    }
 }
 
 .hubs-buttonContainer {
     margin: auto;
     display: flex;
-    max-width: 700px;
+    @media only screen and (max-width:900px){
+        flex-direction: column;
+    }
+}
+
+.hubs-Room {
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    .button {
+        margin-top: 25px;
+    }
+    @media only screen and (max-width:900px){
+        &:last-child {
+            margin-top: 50px;
+        }
+    }
+}
+
+
+.hubs-RoomThumb {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+
+    width: 500px;
+    border-radius: 5px;
+    border: 2px solid #7FACF4;
+    @media only screen and (max-width:1150px){
+        max-width: 400px;
+        width: 90vw;
+    }
+
 }
 
 .button {

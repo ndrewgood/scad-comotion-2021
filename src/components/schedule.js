@@ -37,7 +37,7 @@ const Schedule = () => {
                             <p>Title Sequence</p>
                             <p>The Influence of Online Communities Panel</p>
                             <p>Lunch Break</p>
-                            <p>Workshop</p>
+                            <p>CoMotion Branding: Behind the Scenes</p>
                             <p>Alumni Panel</p>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ const Schedule = () => {
                         </div>
                         <div className="eventMobile">
                             <p>2:00pm - 3:00pm</p>
-                            <p>Workshop</p>
+                            <p>CoMotion Branding: Behind the Scenes</p>
                         </div>
                         <div className="eventMobile">
                             <p>3:15pm - 4:30pm</p>
@@ -126,6 +126,7 @@ const Schedule = () => {
                             <p>12:30pm - 1:15pm</p>
                             <p>1:15pm - 3:15pm</p>
                             <p>3:30pm - 4:30pm</p>
+                            <p>4:30pm - 6:00pm</p>
                         </div>
                         <div className="eventNames">
                             <p>Innovation within the Remote Experience Panel</p>
@@ -133,6 +134,7 @@ const Schedule = () => {
                             <p>Lunch Break</p>
                             <p>Portfolio Reviews</p>
                             <p>Keynote Speaker</p>
+                            <p>Awards Ceremony & Closing Statement</p>
                         </div>
                     </div>
                     <div className="eventContentMobile">
@@ -155,6 +157,10 @@ const Schedule = () => {
                         <div className="eventMobile">
                             <p>3:30pm - 4:30pm</p>
                             <p>Keynote Speaker</p>
+                        </div>
+                        <div className="eventMobile">
+                            <p>4:30pm - 6:00pm</p>
+                            <p>Awards Ceremony & Closing Statement</p>
                         </div>
                     </div>
                 </div>

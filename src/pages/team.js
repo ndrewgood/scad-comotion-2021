@@ -236,7 +236,7 @@ const brandingteam = [
     role: "Designer",
     pic1: btAuraleeM,
     pic2: btAuraleeM2,
-    link: "https://auraleemayfield.tumblr.com/"
+    link: " http://auraleem.crd.co"
   },
   {
     name: "Obi Nwosisi",

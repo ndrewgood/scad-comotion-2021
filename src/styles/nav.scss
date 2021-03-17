@@ -5,12 +5,17 @@ nav {
     transform: translate(-50%);
     left: 50%;
     padding: 40px 0px;
-    top: 30px;
-    // width: 100vw;
-    width: 140px;
+    top: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     transition: .2s;
+
+    width: 90vw;
+    max-width: 1000px;
+    margin: auto;
+    @media only screen and (max-width:800px){
+        width: calc(100% - 60px);
+    }
     a {
         text-decoration: none;
         color: #FFF4E3;
@@ -29,7 +34,9 @@ nav {
     padding-inline-start: 0px;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    // margin-left: 30px;
+    a {
+        margin-left: 30px;
+    }
 }
 
 

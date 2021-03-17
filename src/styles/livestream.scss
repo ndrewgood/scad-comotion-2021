@@ -2,7 +2,7 @@
     background: rgb(243,99,82);
     background: linear-gradient(180.01deg, #DB7863 39.58%, #FFD0B6 99.99%), #C4C4C4;
     height: 100vh;
-    position: relative;
+    overflow-y: none;
     // @media only screen and (max-width: 800px) {
     //     height: 600px;
     // }
@@ -13,25 +13,26 @@
 
 .liveContainer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: .5s;
     width: 100%;
-    @media only screen and (min-width: 1600px) {
-        margin-top: 20px;
+    h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
     }
-    @media only screen and (max-width: 1200px) {
-        margin-top: 100px;
-    }
-    @media only screen and (max-width: 1000px) {
+    margin-top: 150px;
+    z-index: 100;
+    @media only screen and (max-width: 800px) {
         margin-top: 0px;
         position: absolute;
         transform: translate(-50%, -50%);
         left: 50%;
-        top: 40%;
+        top: 50%;
     }
-    @media only screen and (max-width: 800px) {
-        top: 38%;
+    @media only screen and (max-width:600px){
+        top: 55%;
     }
 }
 
@@ -47,7 +48,7 @@
     background-position: bottom;
     background-repeat: no-repeat;
     z-index: 10;
-    bottom: -1px;
+    // bottom: -1px;
 }
 
 .liveBackgroundFade {
@@ -61,51 +62,47 @@
     @media only screen and (max-width: 800px) {
         height: 200px;
     }
-    // background: rgb(42,29,56);
-    // background: linear-gradient(0deg, rgba(42,29,56,1) 5%, rgba(42,29,56,0) 100%);
-    // background-size: cover;
-    // background-position: bottom;
     z-index: 20;
-    bottom: -2px;
+    bottom: 0px;
 }
 
-.liveYoutube{
-    z-index: 99999;
-    max-width: 100%;
-}
-
-.iframe-container {
-    overflow: hidden;
-    position: relative;
-  } 
-  
-  .iframe-container iframe {
-    top: 0;
-    left: 0;
-    border: 0;
-    width:  40%;
-    height: 40%;
-
-    @media only screen and (max-width:800px){
-        width: 95%;
-        height: auto;
+.liveYoutube {
+    border-radius: 5px;
+    z-index: 100;
+    @media only screen and (max-width: 900px) {
+        width: 560px;
+        height: 315px;
     }
-  }
+    @media only screen and (max-width: 600px) {
+        width: 400px;
+        height: 225px;
+    }
+}
 
-// .iframeContainer {
-//     position: relative;
-//     width: 100%;
-//     overflow: hidden;
-//     padding-top: 56.25%; /* 16:9 Aspect Ratio */
-//   }
+.sideLink {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: rgb(255, 244, 227);
+    &:hover {
+        font-weight: 600;
+    }
+}
 
-// .responsive-iframe {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     bottom: 0;
-//     right: 0;
-//     width: 30%;
-//     height: 30%;
-//     border: none;
-//   }
+.live-buttonContainer {
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 100vw;
+    padding-bottom: 20px;
+    .button {
+        background-color: #435f9f;
+        @media only screen and (max-width:600px){
+            margin-bottom: 15px;
+        }
+    }
+    @media only screen and (max-width:600px){
+        flex-direction: column;
+    }
+}

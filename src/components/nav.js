@@ -35,8 +35,11 @@ const Nav = () => {
       <nav className={navStatus}>
         <Link activeClassName="nav-active" className="nav-left" to="/">Home</Link>
         <ul className="nav-right">
+
+          <Link activeClassName="nav-active" to="/livestream">Livestream</Link>
+          <Link activeClassName="nav-active" to="/hubs">Hubs</Link>
           <Link activeClassName="nav-active" to="/team">Team</Link>
-          {/* <a activeClassName="nav-active" target="_blank" href="https://society6.com/momelove">Store</a> */}
+          <a activeClassName="nav-active" target="_blank" href="https://society6.com/momelove">Store</a>
         </ul>
       </nav>
   );

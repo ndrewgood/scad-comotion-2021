@@ -29,9 +29,9 @@ const Hero = () => {
 
     return(
         <main className="heroMain">
-            <div className="countdown">
+            {/* <div className="countdown">
                 <p>{cd.days + " days, " + cd.hours + " hours, " + cd.minutes + " minutes, and " + cd.seconds + " seconds until CoMotion 2021!" }</p>
-            </div>
+            </div> */}
             <div className="heroContainer">
                 <div className="heroLogo" ref={animationContainer} />
             </div>

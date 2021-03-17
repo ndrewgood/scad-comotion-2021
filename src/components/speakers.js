@@ -108,6 +108,7 @@ const Speakers = () => {
                         <div className="info">
                             <h1>The Influence of <br />Online Communities</h1>
                             <h3>March 18th, 11:30am - 12:45pm EST</h3>
+                            <h4>Mack Garrison(DASH), Nick Greenawalt, Sarah Beth Morgan, Gabriel Gareso</h4>
                         </div>
                         <div className="content">
                             <p>With the rise of social media platforms, online spaces have become incredibly accessible and impactful for artists of all mediums to connect, learn new skills, and share their insight with others. In this panel, we will be talking with designers who have built an online presence by sharing their talents, tips, and tricks with followers and friends online. What pressures and privileges does a social media following present?</p>
@@ -126,6 +127,7 @@ const Speakers = () => {
                         <div className="info">
                             <h1>Alumni Panel <br />(International Perspective)</h1>
                             <h3>March 18th, 3:15pm - 4:30pm EST</h3>
+                            <h4>Sarah Linebaugh(Meptik), Myles Bryan(Cycymymy), Jordan Lyle(For the Culture Club), Harshit Desai(Imaginary Forces), Sofie Lee, Aaron Kemnitzer(Bullpen)</h4>
                         </div>
                         <div className="content">
                             <p>SCAD Alumni will talk about life during and after college, sharing wisdom and advice with current students. We’ll learn about the challenges they encountered, as well as their plentiful successes along their journey. Panelists will provide insights on securing the proper Visa for international employment, finding your footing in the industry, and the plethora of lessons learned along the way.</p>
@@ -135,6 +137,7 @@ const Speakers = () => {
                         <div className="info">
                             <h1>Design for Social <br />Justice Panel</h1>
                             <h3>March 19th, 3:00pm - 4:15pm EST</h3>
+                            <h4>Austin Shaw, Jordan Lyle(For the Culture Club), Lo Harris, Jardley Jean Louis</h4>
                         </div>
                         <div className="content">
                             <p>In recent months, with a mainstream focus on the Black Lives Matter movement, conversations about equity and justice have become more accessible than ever, and people everywhere are looking to find ways to contribute to the conversation. In this panel, we’ll be talking to designers and animators who have pushed for positive change through their work. Panelists will provide insights on how to design for social justice, explaining how they capture diversity through their respective lenses and the lasting impact they are hoping to make through their motion design projects.</p>
@@ -144,6 +147,7 @@ const Speakers = () => {
                         <div className="info">
                             <h1>Innovation within the <br />Remote Experience</h1>
                             <h3>March 20th, 10:00am – 11:15pm EST</h3>
+                            <h4>Andrew Stubbs Johnston(Gretel), Nick Rivero(Meptik), Myles Bryan(Cycymymy), Jayson Whitmore(Laundry), Adam Gault(Block & Tackle), Marti Romances(Territory), Erin Sarofsky(Sarofsky)</h4>
                         </div>
                         <div className="content">
                             <p>While the transition to working remotely may have been more familiar to motion designers than other industries, we have still had to solve our share of problems along the way. Today, we will hear from industry professionals about the benefits they see in how in a year the world has adapted, how they have persisted throughout this change, and how they have remained connected to fellow designers, friends, and family in this virtual environment.</p>

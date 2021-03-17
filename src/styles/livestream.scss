@@ -2,7 +2,12 @@
     background: rgb(243,99,82);
     background: linear-gradient(180.01deg, #DB7863 39.58%, #FFD0B6 99.99%), #C4C4C4;
     height: 100vh;
+    min-height: 800px;
     overflow-y: none;
+    @media only screen and (max-width: 600px) {
+        position: relative;
+    }
+
     // @media only screen and (max-width: 800px) {
     //     height: 600px;
     // }
@@ -32,7 +37,7 @@
         top: 50%;
     }
     @media only screen and (max-width:600px){
-        top: 55%;
+        bottom: 20%;
     }
 }
 

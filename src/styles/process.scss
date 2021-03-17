@@ -1,0 +1,131 @@
+.process-hero {
+    background-color: #364F8B;
+    width: 100vw;
+    height: 600px;
+    position: relative;
+}
+
+.process-hand {
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    transform: translate(-50%);
+    left: 50%;
+    z-index: 10;
+    @media only screen and (max-width:700px){
+        width: 200px;
+    }   
+}
+
+.process {
+    background-color: #364F8B;
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Philosopher', sans-serif;
+        font-weight: 700;
+        color: #FFF4E3;
+    }
+    .break-100 {
+        width: 100%;
+        height: 100px;
+    }
+    p {
+        margin: auto;
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 300;
+        font-size: 18px;
+        max-width: 700px;
+        width: 90vw;
+        text-align: center;
+        color: #FFF4E3;
+    }
+    .grid-4 {
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+    }
+    .grid-3 {
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+    }
+    .vimeo {
+        width: 812px;
+        height: 457px;
+        margin: auto;
+        display: flex;
+        border-radius: 5px;
+    }
+    .mt-20 {
+        margin-top: 20px !important;
+    }
+    .mt-40 {
+        margin-top: 40px !important;
+    }
+    .mt-60 {
+        margin-top: 60px !important;
+    }
+    .flex {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .flex-m {
+        width: 90vw;
+        max-width: 800px;
+    }
+    .container-large {
+        width: 90vw;
+        max-width: 1200px;
+        margin: auto;
+        @media only screen and (max-width:800px){
+            width: calc(100% - 60px);
+        }
+    }
+    .italics {
+        font-style: italic;
+    }
+    padding-bottom: 100px;
+}
+
+.sf {
+    width: 380px;
+    height: 214px;
+    background-size: contain;
+    border-radius: 5px;
+    margin: auto;
+    transition: .3s;
+    &:hover {
+        cursor: pointer;
+    }
+    @media only screen and (max-width:1400px){
+        width: 314px;
+        height: 177px;
+    }
+    @media only screen and (max-width:1100px){
+        width: 265px;
+        height: 149px;
+    }
+    @media only screen and (max-width:930px){
+        width: 229px;
+        height: 120px;
+    }
+}
+
+.sf1 {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    &:hover {
+        opacity: 0;
+    }
+}

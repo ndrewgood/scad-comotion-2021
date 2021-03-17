@@ -481,11 +481,7 @@ const volunteers = [
   {
     name: "Alyssa Mackersie",
     link: "https://www.behance.net/alyssamackersie"
-  },
-  {
-    name: "Robert Morrison",
-    link: "https://www.instagram.com/alwayswbuttr/?hl=en"
-  },
+  }
 ]
 
 
@@ -552,6 +548,8 @@ const IndexPage = () => (
           })
         }
       </div>
+      <p className="shoutout">Student Showcase Emcee: <a href="https://www.madmack.biz/" target="_blank">Cameron Mack</a></p>
+      <p className="shoutout">Thank you to <a href="https://www.instagram.com/alwayswbuttr/?hl=en" target="_blank">wbuttr</a> for this year's CoMotion t-shirts!</p>
     </div>
     <div className="teamFooterFade"></div>
     <Footer />

@@ -196,5 +196,23 @@
         grid-column-gap: 0px;
 
     }
+    padding-bottom: 30px;
+}
 
+.shoutout {
+
+    color: rgb(113, 118, 147);
+    text-decoration: none;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px;
+    a{
+        color: #291D38;
+        text-decoration: none;
+        &:hover {
+            font-weight: 700;
+        }
+    }
 }

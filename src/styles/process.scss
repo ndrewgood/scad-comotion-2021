@@ -206,7 +206,7 @@
 
 .hubs-cardContainer{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
     img {
         width: 100%;
         border-radius: 5px;
@@ -232,8 +232,22 @@
 
 }
 
+.postcards {
+    img {
+        max-height: unset !important;
+    }
+}
 
-
+.top {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    transition: .3s;
+    &:hover {
+        opacity: 0;
+        cursor: pointer;
+    }
+}
 
 .processFooterFade {
     width: 100%;

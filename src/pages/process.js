@@ -36,12 +36,12 @@ import sf11_h from "../assets/process/1/Page1_Styleframe17_Hover.png"
 import sf12_b from "../assets/process/1/Page1_Styleframe18_Base.png"
 import sf12_h from "../assets/process/1/Page1_Styleframe18_Hover.png"
 
-import mc1_s from "../assets/process/2/card1.png"
-import mc1_g from "../assets/process/2/card1.gif"
-import mc2_s from "../assets/process/2/card2.png"
-import mc2_g from "../assets/process/2/card2.gif"
-import mc3_s from "../assets/process/2/card3.png"
-import mc3_g from "../assets/process/2/card3.gif"
+import mc1_s from "../assets/process/2/mc1s.jpg"
+import mc1_g from "../assets/process/2/mc1f.gif"
+import mc2_s from "../assets/process/2/mc2s.png"
+import mc2_g from "../assets/process/2/mc2f.gif"
+import mc3_s from "../assets/process/2/mc3s.jpg"
+import mc3_g from "../assets/process/2/mc3f.gif"
 import type1 from "../assets/process/2/type1.png"
 import type2 from "../assets/process/2/type2.png"
 import type3 from "../assets/process/2/type3.png"
@@ -54,6 +54,13 @@ import zoom1 from "../assets/process/3/3_zoom1.png"
 import zoom2 from "../assets/process/3/3_zoom2.png"
 import zoom3 from "../assets/process/3/3_zoom3.png"
 import zoom4 from "../assets/process/3/3_zoom4.gif"
+import ig1 from "../assets/process/3/igFeed1.png"
+import ig2 from "../assets/process/3/igFeed2.png"
+import ig3 from "../assets/process/3/igFeed3.jpg"
+import pc1s from "../assets/process/3/postcard1_s.png"
+import pc1f from "../assets/process/3/postcard1_f.png"
+import pc2s from "../assets/process/3/postcard2_s.png"
+import pc2f from "../assets/process/3/postcard2_f.png"
 
 import mh1 from "../assets/process/4/mh1.jpg"
 import mh2 from "../assets/process/4/mh2.jpg"
@@ -159,27 +166,27 @@ const ProcessPage = () => (
       <div className="grid-2 container">
         <div className="hubs-cardContainer">
           <img src={mc1_s} alt=""/>
-          <p>Initial concept and final render of the Typography Design category title card for the student showcase.</p>
+          {/* <p>Initial concept and final render of the Typography Design category title card for the student showcase.</p> */}
         </div>
         <div className="hubs-cardContainer">
           <img src={mc1_g} alt=""/>
-          <p>	Final motion of the Typography Design category title card for the student showcase.</p>
+          {/* <p>	Final motion of the Typography Design category title card for the student showcase.</p> */}
         </div>
         <div className="hubs-cardContainer">
           <img src={mc2_s} alt=""/>
-          <p>Initial concept and final render of the Best in Show category title card for the student showcase.</p>
+          {/* <p>Initial concept and final render of the Best in Show category title card for the student showcase.</p> */}
         </div>
         <div className="hubs-cardContainer">
           <img src={mc2_g} alt=""/>
-          <p>	Final motion of the Best in Show category title card for the student showcase.</p>
+          {/* <p>	Final motion of the Best in Show category title card for the student showcase.</p> */}
         </div>
         <div className="hubs-cardContainer">
           <img src={mc3_s} alt=""/>
-          <p>Initial concept and final render of the Illustrative Design category title card for the student showcase.</p>
+          {/* <p>Initial concept and final render of the Illustrative Design category title card for the student showcase.</p> */}
         </div>
         <div className="hubs-cardContainer">
           <img src={mc3_g} alt=""/>
-          <p>Final motion of the Illustrative Design category title card for the student showcase.</p>
+          {/* <p>Final motion of the Illustrative Design category title card for the student showcase.</p> */}
         </div>
       </div>
       <h2 className="mt-60">Type Study</h2>
@@ -191,7 +198,12 @@ const ProcessPage = () => (
       <div className="break-100"></div>
       <h1 id="deliverables">Deliverables</h1>
       <h2 className="mt-60">Instagram Feed Design</h2>
-      <img className="img-m" src={igDesign} alt=""/>
+      {/* <img className="img-m" src={igDesign} alt=""/> */}
+      <div className="grid-3 container">
+        <img className="img-m" src={ig1} alt=""/>
+        <img className="img-m" src={ig2} alt=""/>
+        <img className="img-m" src={ig3} alt=""/>
+      </div>
       <h2 className="mt-60">Instagram Sticker Pack</h2>
       <div className="grid-2 container">
         <img src={igGif1} alt=""/>
@@ -204,6 +216,18 @@ const ProcessPage = () => (
         <img src={zoom3} alt=""/>
         <img src={zoom4} alt=""/>
       </div>
+      <h2 className="mt-60">AR Postcards</h2>
+      <div className="grid-2 container mt-40 postcards">
+        <div className="teamPic">
+          <img src={pc1f} className="top" alt=""/>
+          <img src={pc1s}  alt=""/>
+        </div>
+        <div className="teamPic">
+          <img src={pc2f} className="top" alt=""/>
+          <img src={pc2s}  alt=""/>
+        </div>
+      </div>
+      {/* <p className="mt-20">Try out the AR Filters by going to @scadmomelove on Instagram, selecting the filter, and pointing it at one of the cards!</p> */}
       <div className="break-100"></div>
       <h1 id="organizing-digitally">Organizing Digitally</h1>
       <h2 className="mt-60">Using Discord</h2>
@@ -213,7 +237,6 @@ const ProcessPage = () => (
       <p className="bigPara mt-20">CoMotion has always been held on-ground on campus. As CoMotion is held entirely virtual this year, there are less size constraints to account for physical space. Without the bustle of moving from room to room between reviews, considering space and privacy within each room, and the venue capacity, there is more space to accommodate companies and students. With over fifty companies and creators in attendance, CoMotion is at its current highest company attendance total. </p>
       <p className="bigPara mt-20">To manage the companies and students in the Discord server discussed above, MOMELove assigned private voice channels for each company. Detailed messages regarding navigating Discord were sent to companies and multiple Q&A sessions were held for students, which allowed for open questioning, testing, and troubleshooting to prepare for portfolio reviews. </p>
       <h2 className="mt-60">Mozilla Hubs WIPs</h2>
-
       <div className="grid-3 mt-20 container">
         <img src={mh1} alt=""/>
         <img src={mh2} alt=""/>

@@ -38,6 +38,7 @@ const Nav = () => {
 
           <Link activeClassName="nav-active" to="/livestream">Livestream</Link>
           <Link activeClassName="nav-active" to="/hubs">Hubs</Link>
+          <Link activeClassName="nav-active" to="/process">Process</Link>
           <Link activeClassName="nav-active" to="/team">Team</Link>
           <a activeClassName="nav-active" target="_blank" href="https://society6.com/momelove">Store</a>
         </ul>

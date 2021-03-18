@@ -119,10 +119,10 @@ const ProcessPage = () => (
       <div className="break-100"></div>
       <h2>Index</h2>
       <div className="flex flex-m mt-20">
-        <AnchorLink to="process#title-sequence" className="button">Title Sequence</AnchorLink>
-        <AnchorLink to="process#design-process" className="button">Design Process</AnchorLink>
-        <AnchorLink to="process#deliverables" className="button">Deliverables</AnchorLink>
-        <AnchorLink to="process#organizing-digitally" className="button">Organizing Digitally</AnchorLink>
+        <AnchorLink to="/process#title-sequence" className="button">Title Sequence</AnchorLink>
+        <AnchorLink to="/process#design-process" className="button">Design Process</AnchorLink>
+        <AnchorLink to="/process#deliverables" className="button">Deliverables</AnchorLink>
+        <AnchorLink to="/process#organizing-digitally" className="button">Organizing Digitally</AnchorLink>
       </div>
       <div className="break-100"></div>
       <h1 id="title-sequence">Title Sequence</h1>

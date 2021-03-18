@@ -42,6 +42,10 @@ import mc2_s from "../assets/process/2/card2.png"
 import mc2_g from "../assets/process/2/card2.gif"
 import mc3_s from "../assets/process/2/card3.png"
 import mc3_g from "../assets/process/2/card3.gif"
+import type1 from "../assets/process/2/type1.png"
+import type2 from "../assets/process/2/type2.png"
+import type3 from "../assets/process/2/type3.png"
+
 
 import igDesign from "../assets/process/3/3_igDesign.png"
 import igGif1 from "../assets/process/3/3_igGif1.gif"
@@ -179,7 +183,11 @@ const ProcessPage = () => (
         </div>
       </div>
       <h2 className="mt-60">Type Study</h2>
-
+      <div className="grid-3 mt-20 container">
+        <img src={type1} alt=""/>
+        <img src={type2} alt=""/>
+        <img src={type3} alt=""/>
+      </div>
       <div className="break-100"></div>
       <h1 id="deliverables">Deliverables</h1>
       <h2 className="mt-60">Instagram Feed Design</h2>

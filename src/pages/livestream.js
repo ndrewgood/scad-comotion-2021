@@ -54,7 +54,8 @@ const LivestreamPage = () => {
       <div className="liveContainer iframe-container">
         <h1>{pageStatus == 1 ? titles[0] : pageStatus == 2 ? titles[1] : pageStatus == 3 ? titles[2] : null}</h1>
         <iframe className="liveYoutube" autoPlay width="670" height="377" src={pageStatus == 1 ? links[0] : pageStatus == 2 ? links[1] : pageStatus == 3 ? links[2] : null} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
-        <a className="sideLink" target="_blank" href="https://www.youtube.com/watch?v=G91JW2mYi9A&list=PLitCU_9FKN6B3kLW5AwiNt3BzAljp0cBY&index=1">Opening Statement & Title Sequence</a>
+        <a className="sideLink" target="_blank" href="https://www.youtube.com/watch?v=C67kTTa3SH8">Student Showcase</a>
+        {/* <a className="sideLink" target="_blank" href="https://www.youtube.com/watch?v=G91JW2mYi9A&list=PLitCU_9FKN6B3kLW5AwiNt3BzAljp0cBY&index=1">Opening Statement & Title Sequence</a> */}
         <div className="live-buttonContainer">
           <a className="button" target="_blank" href="https://www.youtube.com/watch?v=Pn2Y2mNEkjU&list=PLitCU_9FKN6B3kLW5AwiNt3BzAljp0cBY&index=2" >Day 1 <br/>Livestream Link</a>
           <a className="button" target="_blank" href="https://www.youtube.com/watch?v=nJaWaUUTb-U&list=PLitCU_9FKN6B3kLW5AwiNt3BzAljp0cBY&index=3" >Day 2 <br/>Livestream Link</a>

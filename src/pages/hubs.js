@@ -26,7 +26,7 @@ const HubsPage = () => {
   // Fri Mar 19 2021 18:45:00 GMT-0400 (Eastern Daylight Time)
   let galleryLive = 1616193900;
 
-  const [buttonStatus, setButtonStatus] = useState("show");
+  const [buttonStatus, setButtonStatus] = useState();
 
 
   useEffect(() => {
